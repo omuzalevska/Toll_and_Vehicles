@@ -9,7 +9,6 @@ public class App {
     station.processVehicle(new Motorcycle("DEF-456"));
     station.processVehicle(new Truck("GHI-789", 3)); // 3 axles
 
-    // Printing results
     station.printReport();
     }
 }

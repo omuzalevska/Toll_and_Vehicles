@@ -32,4 +32,13 @@ class TollStation {
         }
         System.out.println("Total Toll Collected: $" + totalTollCollected);
     }
+
+    public double getTotalTollCollected() {
+        return totalTollCollected;
+    }
+    
+    public List<Vehicle> getVehicles() {
+        return vehicles;
+    }
+    
 }
